@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project": "Agency Creative & Engineering AI Orchestrator",
+  "version": "1.0.0",
+  "last_updated": "2026-10-19T00:58:00+07:00",
+  "seed_lock": 842109,
+  "color_palette": {
+    "primary": {
+      "name": "Electric Cyber Magenta",
+      "hex": "#FF2E93",
+      "rgb": [255, 46, 147],
+      "cmyk": [0, 85, 20, 0],
+      "pantone": "Process Magenta C"
+    },
+    "secondary": {
+      "name": "Hyper Solar Orange",
+      "hex": "#FF8A00",
+      "rgb": [255, 138, 0],
+      "cmyk": [0, 55, 100, 0],
+      "pantone": "1505 C"
+    },
+    "accent": {
+      "name": "Laser Cyan",
+      "hex": "#00F0FF",
+      "rgb": [0, 240, 255],
+      "cmyk": [60, 0, 0, 0],
+      "pantone": "3105 C"
+    },
+    "dark_canvas": {
+      "name": "Rich Obsidian Black",
+      "hex": "#0A0A0C",
+      "rgb": [10, 10, 12],
+      "cmyk": [40, 30, 30, 100],
+      "usage": "Headlines >= 36pt and large solid backgrounds"
+    },
+    "pure_black": {
+      "name": "Prepress Body Black",
+      "hex": "#000000",
+      "rgb": [0, 0, 0],
+      "cmyk": [0, 0, 0, 100],
+      "usage": "Body typography < 14pt with Overprint Black enabled"
+    },
+    "light_contrast": {
+      "name": "Pristine Pure White",
+      "hex": "#FFFFFF",
+      "rgb": [255, 255, 255],
+      "cmyk": [0, 0, 0, 0]
+    },
+    "spot_inks": {
+      "die_cut": {
+        "name": "DieCut Spot Line",
+        "cmyk": [0, 100, 0, 0],
+        "stroke_pt": 0.5,
+        "attribute": "Non-printing"
+      },
+      "crease_line": {
+        "name": "Crease Spot Line",
+        "cmyk": [100, 0, 0, 0],
+        "stroke_pt": 0.5,
+        "dash": "2pt 2pt"
+      },
+      "foil_gold": {
+        "name": "FoilGold",
+        "pantone": "871 C",
+        "usage": "Hot stamping"
+      },
+      "foil_hologram": {
+        "name": "Hologram_Silver",
+        "usage": "Security holographic foil stamp"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "font_family": "Cabinet Grotesk / Syne / Clash Display",
+      "weight": 900,
+      "letter_spacing": "-0.04em",
+      "line_height": 0.95,
+      "case": "uppercase"
+    },
+    "heading": {
+      "font_family": "Plus Jakarta Sans / Inter Display",
+      "weight": 700,
+      "letter_spacing": "-0.02em",
+      "line_height": 1.15
+    },
+    "subheading": {
+      "font_family": "Space Grotesk / General Sans",
+      "weight": 600,
+      "letter_spacing": "-0.01em",
+      "line_height": 1.3
+    },
+    "body": {
+      "font_family": "Plus Jakarta Sans / Inter",
+      "weight": 400,
+      "letter_spacing": "0em",
+      "line_height": 1.6,
+      "vietnamese_diacritics_certified": true
+    },
+    "mono": {
+      "font_family": "JetBrains Mono / Space Mono",
+      "weight": 500,
+      "letter_spacing": "0.05em"
+    }
+  },
+  "mascot_ip": {
+    "name": "Vibe Fox (Hồ Ly Năng Lượng)",
+    "body_proportions": "2.8 heads tall (Chibi-Artcraft event scale)",
+    "core_palette": ["#FF2E93", "#FF8A00", "#FFFFFF", "#0A0A0C"],
+    "views": ["front", "three_quarter", "profile", "back"],
+    "emotions": ["hype", "confident", "friendly", "curious", "shock", "party"],
+    "silhouette_retention_size": "32x32px"
+  },
+  "svg_defs": {
+    "key_motif_id": "key-motif-starburst",
+    "gradient_id": "dna-grad-primary",
+    "pattern_id": "brand-seamless-pattern",
+    "svg_symbols_raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" style=\"display: none;\"><defs><linearGradient id=\"dna-grad-primary\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#FF2E93\" /><stop offset=\"50%\" stop-color=\"#FF8A00\" /><stop offset=\"100%\" stop-color=\"#00F0FF\" /></linearGradient><symbol id=\"key-motif-starburst\" viewBox=\"-100 -100 200 200\"><path d=\"M0 -85 L18 -25 L85 0 L18 25 L0 85 L-18 25 L-85 0 L-18 -25 Z\" fill=\"url(#dna-grad-primary)\" /><circle cx=\"0\" cy=\"0\" r=\"14\" fill=\"#0A0A0C\" stroke=\"url(#dna-grad-primary)\" stroke-width=\"4\" /><line x1=\"-95\" y1=\"0\" x2=\"95\" y2=\"0\" stroke=\"#00F0FF\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\" /><line x1=\"0\" y1=\"-95\" x2=\"0\" y2=\"95\" stroke=\"#00F0FF\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\" /></symbol><pattern id=\"brand-seamless-pattern\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\"><use href=\"#key-motif-starburst\" x=\"30\" y=\"30\" width=\"30\" height=\"30\" opacity=\"0.15\" /></pattern></defs></svg>"
+  }
+}

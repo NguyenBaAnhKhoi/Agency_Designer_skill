@@ -1,0 +1,6 @@
+interface:
+  display_name: "Event & Campaign Visual Design"
+  short_description: "Graphic design, Key Visuals, LED stage visuals, and campaign systems for events"
+  default_prompt: "Use @creative-agency to research, establish, and produce the comprehensive visual design system and event deliverables for this brief."
+policy:
+  allow_implicit_invocation: true
