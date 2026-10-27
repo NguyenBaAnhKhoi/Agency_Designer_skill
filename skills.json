@@ -1,0 +1,14 @@
+{
+  "entries": [
+    { "path": ".agent/skills/BA" },
+    { "path": ".agent/skills/Designer" },
+    { "path": ".agent/skills/Engineering" },
+    { "path": ".agent/skills/QA" },
+    { "path": ".agent/skills/QC" },
+    { "path": ".agent/skills/UX.UI" },
+    { "path": ".agent/skills/Designer/gsap-animations" },
+    { "path": ".agent/skills/Designer/remotion" },
+    { "path": ".agent/skills/Designer/replicate" },
+    { "path": ".agent/skills/UX.UI/figma" }
+  ]
+}
